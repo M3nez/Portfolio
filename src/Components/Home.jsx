@@ -58,9 +58,10 @@ const HomePage = (props) => {
                 <br />
             </div>
             <div className="links">
-                <button className="cardbutton" onClick={e => history.push('/emailForm')}>Contact Me!</button>
+                <button className="cardbutton" onClick={e => history.push('/emailForm')}>Contact Me</button>
                 <button className="cardbutton" onClick={e => history.push('/projects')}>My Projects</button>
-                <button className="cardbutton" ><a className="Resume" href={Resume} download>Resume Download</a></button>
+                <button className="cardbutton" ><a className="Resume" href={Resume} download>Resume </a></button>
+                <button className="cardbutton" onClick={e => history.push('/AboutMeh')}>About Me</button>
             </div >
 
         </div >

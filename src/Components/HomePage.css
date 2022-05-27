@@ -26,7 +26,26 @@
     transition: transform .2s;
     padding-bottom: 5px;
 }
+/* This is for the about me Card */
+.Card2 {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color:rgba(255, 255, 255, 0.219);
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+}
 
+/* The paragraph about me */
+.about {
+    font-size: medium;
+
+}
 .Card:hover {
     transform: scale(1.14);
 }
@@ -65,7 +84,7 @@
 
 
 .App{
-    height: 100%;
+    height: auto;
     background: linear-gradient(217deg, rgba(240, 2, 14, 0.644), rgba(82, 1, 243, 0.315) 70.71%),
     linear-gradient(127deg, rgb(31, 121, 194), rgba(11, 236, 11, 0.459) 70.71%),
     linear-gradient(336deg, rgba(2, 175, 255, 0.623), rgba(0,0,255,0) 70.71%);
